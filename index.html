@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geo Location</title>
+	<!-- This stylesheet contains specific styles for displaying the map
+         on this page. Replace it with your own styles as described in the
+         documentation:
+         https://developers.google.com/maps/documentation/javascript/tutorial -->
+    <link rel="stylesheet" href="https://developers.google.com/maps/documentation/javascript/demos/demos.css">
+</head>
+<body>
+	<div id="map"></div>
+    <script>
+      var map, infoWindow, georssLayer;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 10.0159394, lng: -84.2141701},
+          zoom: 17,
+          mapTypeId: 'satellite'
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        georssLayer = new google.maps.KmlLayer({
+        	url: 'https://www.google.com/maps/d/embed?mid=1pdZLu8qzzsU3E_Ycj4mRrxmnGb0'
+        });
+  		
+  		georssLayer.setMap(map);
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('Usted está por aquí');
+            infoWindow.open(map);
+            map.setCenter(pos);
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0iRJWZwxR1OdV3haj2gRYQWX-QIk8xiE&callback=initMap" async defer></script>
+</body>
+</html>
