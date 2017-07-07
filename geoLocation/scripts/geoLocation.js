@@ -19,6 +19,8 @@ function setLocationMarker(navigator, map) {
     url: 'img/location.png'
   }
 
+  console.log('Setting the user location');
+
   navigator.geolocation.getCurrentPosition(function(position) {
       pos = {
         lat: position.coords.latitude,
@@ -34,7 +36,6 @@ function setLocationMarker(navigator, map) {
       map.setCenter(pos);
   });
 
-  console.log('Geting user\'s location');
 }
 
 
@@ -48,7 +49,7 @@ function initMap() {
   setKml(map);
 
   if (navigator.geolocation) {
-    setLocationMarker(navigator, map);
+    setInterval(function() { setLocationMarker(navigator, map) }, 30000);
   } else {
     // Browser doesn't support Geolocation
   }
