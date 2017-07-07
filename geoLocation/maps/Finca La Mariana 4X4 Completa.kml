@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Finca La Mariana 4X4 Completa</name>
+    <description>Ruta 4X4 de Finca La Mariana</description>
+    <Style id="icon-1502-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1898-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1898-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1898-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1898-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1898-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-labelson">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="line-FBC02D-1775-nodesc-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.775</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FBC02D-1775-nodesc-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>2.6625</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FBC02D-1775-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FBC02D-1775-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FBC02D-1775-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>La Mariana 4X4 Completa</name>
+      <Placemark>
+        <name>La Mariana 4X4 Completa</name>
+        <description><![CDATA[La Mariana 4X4 Completa (https://www.wikiloc.com/wikiloc/view.do?id=18502923)<br>near Santa Rita, Alajuela (Republic of Costa Rica) by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Driving distance: 13.05 mi. - 21 km.<br><br>Elevation min: 3 meters max: 167 meters<br>Uphill: 197 meters down: 158 meters<br>Type: One way<br><br> La Mariana 4X4 Completa<br> <br>Upload your trail to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1502-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -84.627188,9.850055,129
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Path</name>
+        <styleUrl>#line-FBC02D-1775-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -84.627571,9.850118,106
+            -84.627919,9.849763,98
+            -84.628196,9.848397,97
+            -84.627799,9.847053,100
+            -84.628013,9.8458,102
+            -84.627334,9.845031,99
+            -84.627747,9.844354,97
+            -84.627795,9.842832,96
+            -84.628153,9.841514,93
+            -84.628713,9.841372,93
+            -84.628606,9.841828,104
+            -84.62841,9.841724,107
+            -84.628693,9.841692,99
+            -84.628983,9.841413,94
+            -84.628814,9.840476,80
+            -84.62915,9.839861,68
+            -84.62944,9.838651,64
+            -84.630362,9.838088,58
+            -84.630792,9.838169,54
+            -84.631143,9.837969,52
+            -84.631234,9.837248,56
+            -84.631968,9.836437,45
+            -84.631877,9.835183,44
+            -84.632249,9.834221,30
+            -84.632103,9.833792,37
+            -84.632602,9.833816,39
+            -84.632904,9.833091,39
+            -84.63329,9.832797,38
+            -84.634645,9.832288,32
+            -84.636137,9.831972,25
+            -84.637482,9.831436,16
+            -84.637782,9.831924,13
+            -84.638501,9.832196,15
+            -84.638657,9.831839,27
+            -84.638552,9.83138,26
+            -84.638159,9.831342,20
+            -84.637672,9.831538,16
+            -84.637769,9.831909,12
+            -84.638042,9.832199,12
+            -84.637928,9.833448,12
+            -84.637856,9.833628,14
+            -84.637476,9.833531,13
+            -84.637555,9.832784,14
+            -84.637825,9.833168,14
+            -84.63783,9.833077,13
+            -84.637692,9.832965,13
+            -84.637818,9.833535,14
+            -84.637497,9.833481,15
+            -84.637471,9.83301,16
+            -84.637409,9.833768,18
+            -84.637045,9.834022,18
+            -84.636886,9.834496,18
+            -84.636991,9.834857,19
+            -84.636906,9.835268,19
+            -84.636723,9.83523,17
+            -84.636732,9.835055,18
+            -84.637163,9.834924,17
+            -84.637274,9.834659,16
+            -84.63701,9.834266,15
+            -84.63711,9.833828,15
+            -84.63672,9.834409,16
+            -84.636837,9.834615,16
+            -84.636702,9.835061,16
+            -84.637151,9.835309,15
+            -84.636901,9.835384,15
+            -84.63701,9.83611,16
+            -84.636519,9.836728,17
+            -84.636247,9.836776,16
+            -84.636095,9.836631,17
+            -84.636624,9.836465,16
+            -84.636701,9.836634,16
+            -84.636299,9.8368,15
+            -84.636245,9.837082,16
+            -84.636123,9.837044,17
+            -84.636476,9.837531,17
+            -84.63687,9.837431,16
+            -84.63598,9.836991,15
+            -84.636311,9.83745,16
+            -84.636234,9.837856,18
+            -84.635999,9.838163,18
+            -84.636186,9.838392,17
+            -84.637491,9.838356,20
+            -84.637247,9.838483,20
+            -84.636882,9.83839,19
+            -84.636798,9.837926,20
+            -84.637902,9.837604,41
+            -84.638016,9.836096,29
+            -84.63727,9.835395,16
+            -84.638021,9.835144,39
+            -84.638171,9.834175,29
+            -84.638309,9.834043,24
+            -84.638232,9.833555,16
+            -84.637975,9.833416,11
+            -84.63798,9.832143,10
+            -84.637757,9.8319,11
+            -84.637712,9.831522,13
+            -84.638086,9.831192,19
+            -84.63855,9.831335,23
+            -84.638704,9.831693,26
+            -84.639118,9.831283,21
+            -84.639634,9.8311,9
+            -84.639735,9.831243,9
+            -84.64002,9.831137,9
+            -84.640058,9.830261,8
+            -84.639231,9.829702,9
+            -84.638903,9.829767,8
+            -84.639396,9.830051,8
+            -84.639157,9.830421,5
+            -84.639325,9.830344,5
+            -84.63943,9.829672,5
+            -84.639266,9.829756,5
+            -84.639389,9.829864,5
+            -84.639276,9.8302,6
+            -84.638543,9.829937,7
+            -84.638754,9.829402,11
+            -84.639119,9.82928,11
+            -84.6395,9.828854,8
+            -84.640178,9.828474,9
+            -84.640261,9.828223,9
+            -84.639593,9.827654,4
+            -84.639324,9.827808,4
+            -84.638765,9.827844,5
+            -84.63844,9.827675,7
+            -84.638059,9.827124,7
+            -84.638391,9.827503,7
+            -84.638639,9.827341,7
+            -84.638983,9.82633,10
+            -84.638986,9.825755,14
+            -84.639354,9.825074,13
+            -84.639391,9.824697,10
+            -84.63992,9.824165,9
+            -84.640048,9.823748,10
+            -84.640405,9.82357,10
+            -84.640455,9.823646,9
+            -84.639725,9.824087,9
+            -84.639741,9.824281,10
+            -84.639446,9.824487,11
+            -84.638727,9.827095,9
+            -84.638002,9.827913,6
+            -84.637672,9.828033,4
+            -84.637489,9.828363,6
+            -84.636962,9.828382,5
+            -84.636913,9.828175,3
+            -84.636842,9.828342,5
+            -84.63637,9.828422,6
+            -84.636485,9.829171,6
+            -84.636369,9.829333,6
+            -84.635671,9.829652,12
+            -84.635501,9.8292,11
+            -84.635161,9.829,12
+            -84.634884,9.828499,10
+            -84.63571,9.828323,5
+            -84.636321,9.828584,8
+            -84.635769,9.828267,7
+            -84.63498,9.828475,13
+            -84.635792,9.828407,10
+            -84.635656,9.828308,10
+            -84.63515,9.828428,9
+            -84.635014,9.828309,8
+            -84.635137,9.828245,12
+            -84.634913,9.82824,12
+            -84.634993,9.828432,15
+            -84.634464,9.828402,19
+            -84.634203,9.828904,14
+            -84.633724,9.828582,10
+            -84.633559,9.828692,11
+            -84.633456,9.828853,11
+            -84.6338,9.829552,22
+            -84.633711,9.829735,21
+            -84.632305,9.829708,12
+            -84.631313,9.830348,12
+            -84.631447,9.830924,14
+            -84.632267,9.831391,14
+            -84.632221,9.831576,15
+            -84.632286,9.831478,14
+            -84.632189,9.831474,11
+            -84.632657,9.831457,22
+            -84.633131,9.831183,34
+            -84.633847,9.831464,35
+            -84.634813,9.830773,41
+            -84.635229,9.830965,45
+            -84.635183,9.831058,49
+            -84.634889,9.830765,46
+            -84.634067,9.831274,38
+            -84.633845,9.832122,35
+            -84.632976,9.832798,40
+            -84.632708,9.833532,44
+            -84.632793,9.834116,39
+            -84.632387,9.834998,45
+            -84.632298,9.836069,47
+            -84.631347,9.837063,54
+            -84.63099,9.838053,53
+            -84.630705,9.838174,56
+            -84.630294,9.838104,59
+            -84.62955,9.838595,65
+            -84.629206,9.83971,65
+            -84.628665,9.840759,83
+            -84.628742,9.841324,92
+            -84.628602,9.841453,93
+            -84.628214,9.841457,95
+            -84.628119,9.841621,94
+            -84.627699,9.843324,93
+            -84.627789,9.844386,97
+            -84.627448,9.844735,99
+            -84.627391,9.844989,100
+            -84.628028,9.845856,103
+            -84.627743,9.846805,102
+            -84.62822,9.848345,103
+            -84.628028,9.849392,105
+            -84.627786,9.850001,108
+            -84.627121,9.850101,114
+            -84.627083,9.849918,116
+            -84.627008,9.84999,116
+            -84.627168,9.849865,116
+            -84.626798,9.850547,110
+            -84.625694,9.850814,117
+            -84.625423,9.85127,113
+            -84.624726,9.85173,109
+            -84.624829,9.851803,108
+            -84.624716,9.851809,108
+            -84.624544,9.852293,108
+            -84.624712,9.853373,107
+            -84.624594,9.853597,106
+            -84.624722,9.854844,109
+            -84.624588,9.856048,118
+            -84.623968,9.858892,102
+            -84.623693,9.859335,103
+            -84.623322,9.859569,99
+            -84.621591,9.859891,81
+            -84.620627,9.859542,72
+            -84.619867,9.860225,74
+            -84.619443,9.860407,72
+            -84.619047,9.860244,71
+            -84.618208,9.859337,78
+            -84.616772,9.859813,69
+            -84.615962,9.859492,61
+            -84.615883,9.859891,60
+            -84.614852,9.861398,65
+            -84.614927,9.862492,66
+            -84.614273,9.863045,72
+            -84.613071,9.863532,88
+            -84.612138,9.864832,93
+            -84.609412,9.866989,110
+            -84.608847,9.867229,112
+            -84.60638,9.867739,116
+            -84.602627,9.869397,122
+            -84.594916,9.871078,125
+            -84.591685,9.870263,131
+            -84.591047,9.870278,129
+            -84.590388,9.870502,125
+            -84.589959,9.870748,120
+            -84.589805,9.871077,117
+            -84.589406,9.872946,125
+            -84.588766,9.873791,133
+            -84.587475,9.875015,148
+            -84.587003,9.876304,158
+            -84.58629,9.87638,162
+            -84.586434,9.876162,162
+            -84.586277,9.87595,164
+            -84.586439,9.876003,164
+            -84.586289,9.876085,165
+            -84.586438,9.876161,165
+            -84.586477,9.875937,167
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Camino hacia el manglar</name>
+        <description>NO tiene salida</description>
+        <styleUrl>#icon-1898-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -84.63835,9.827536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Cerro Alto</name>
+        <description><![CDATA[Cerro Alto (https://www.wikiloc.com/wikiloc/view.do?id=18502926)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.841749,-84.62844<br>Elevation: 106 meters<br><br>  <br> Cerro Alto<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.62844,9.841749,106.9
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Izquierda Entrada Ruta de cuadras</name>
+        <description><![CDATA[Izquierda Entrada Ruta de cuadras (https://www.wikiloc.com/wikiloc/view.do?id=18502927)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.836436,-84.631956<br>Elevation: 45 meters<br><br> Izquierda Entrada Ruta de cuadras<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.631956,9.836436,45.8
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salida Ruta Cuadras(Rudo)</name>
+        <description><![CDATA[Salida Ruta Cuadras(Rudo) (https://www.wikiloc.com/wikiloc/view.do?id=18502930)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.833712,-84.632326<br>Elevation: 37 meters<br><br> Salida Ruta Cuadras(Rudo)<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.632326,9.833712,37.7
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mierdero Dmax</name>
+        <description><![CDATA[Mierdero Dmax (https://www.wikiloc.com/wikiloc/view.do?id=18502931)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.831625,-84.637683<br>Elevation: 15 meters<br><br> Mierdero Dmax<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637683,9.831625,15.3
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abrir camino(Cuesta brava)</name>
+        <description><![CDATA[Abrir camino(Cuesta brava) (https://www.wikiloc.com/wikiloc/view.do?id=18502932)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.832123,-84.63837<br>Elevation: 14 meters<br><br> Abrir camino(Cuesta brava)<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.63837,9.832123,14.8
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Árbol de la Bandera</name>
+        <description><![CDATA[Árbol de la Bandera (https://www.wikiloc.com/wikiloc/view.do?id=18502933)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.833591,-84.637858<br>Elevation: 13 meters<br><br> Árbol de la Bandera<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637858,9.833591,13.9
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zanja bonita(Seguir sobre el río)</name>
+        <description><![CDATA[Zanja bonita(Seguir sobre el río) (https://www.wikiloc.com/wikiloc/view.do?id=18502934)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.832948,-84.63747<br>Elevation: 13 meters<br><br>  <br> Zanja bonita(Seguir sobre el río)<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.63747,9.832948,13.8
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La grada</name>
+        <description><![CDATA[La grada (https://www.wikiloc.com/wikiloc/view.do?id=18502935)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.833941,-84.637272<br>Elevation: 18 meters<br><br>  <br> La grada<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637272,9.833941,18
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salida alterna al río antes de La grada</name>
+        <description><![CDATA[Salida alterna al río antes de La grada (https://www.wikiloc.com/wikiloc/view.do?id=18502936)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.834862,-84.637154<br>Elevation: 16 meters<br><br> Salida alterna al río antes de La grada<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637154,9.834862,16.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrada al río(Salida a La Grada)</name>
+        <description><![CDATA[Entrada al río(Salida a La Grada) (https://www.wikiloc.com/wikiloc/view.do?id=18502938)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.835281,-84.636958<br>Elevation: 15 meters<br><br> Entrada al río(Salida a La Grada)<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.636958,9.835281,15.4
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrada a otra pasada por el tío</name>
+        <description><![CDATA[Entrada a otra pasada por el tío (https://www.wikiloc.com/wikiloc/view.do?id=18502940)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.836631,-84.636095<br>Elevation: 16 meters<br><br> Entrada a otra pasada por el tío<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.636095,9.836631,16.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasada de las Palmas</name>
+        <description><![CDATA[Pasada de las Palmas (https://www.wikiloc.com/wikiloc/view.do?id=18502942)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.838388,-84.636504<br>Elevation: 17 meters<br><br> Pasada de las Palmas<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.636504,9.838388,17.6
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Raíces</name>
+        <description><![CDATA[Las Raíces (https://www.wikiloc.com/wikiloc/view.do?id=18502943)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.838354,-84.636764<br>Elevation: 18 meters<br><br> Las Raíces<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.636764,9.838354,18.9
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Ceibo</name>
+        <description><![CDATA[El Ceibo (https://www.wikiloc.com/wikiloc/view.do?id=18502945)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.838409,-84.637336<br>Elevation: 19 meters<br><br> El Ceibo<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637336,9.838409,19.8
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bajada</name>
+        <description><![CDATA[Bajada (https://www.wikiloc.com/wikiloc/view.do?id=18502947)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.837703,-84.637677<br>Elevation: 38 meters<br><br> Bajada<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637677,9.837703,38.6
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuesta bonita</name>
+        <description><![CDATA[Cuesta bonita (https://www.wikiloc.com/wikiloc/view.do?id=18502949)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.836308,-84.638052<br>Elevation: 35 meters<br><br> Cuesta bonita<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.638052,9.836308,35.4
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La V</name>
+        <description><![CDATA[La V (https://www.wikiloc.com/wikiloc/view.do?id=18502951)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.835859,-84.637741<br>Elevation: 20 meters<br><br> La V<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637741,9.835859,20.7
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bajada brava</name>
+        <description><![CDATA[Bajada brava (https://www.wikiloc.com/wikiloc/view.do?id=18502952)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.835144,-84.638021<br>Elevation: 38 meters<br><br> Bajada brava<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.638021,9.835144,38.7
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrada</name>
+        <description><![CDATA[Entrada (https://www.wikiloc.com/wikiloc/view.do?id=18502955)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.834957,-84.638129<br>Elevation: 40 meters<br><br>  <br> Entrada<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.638129,9.834957,40.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasada brava del rio</name>
+        <description><![CDATA[Pasada brava del rio (https://www.wikiloc.com/wikiloc/view.do?id=18502956)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.830239,-84.639977<br>Elevation: 9 meters<br><br> Pasada brava del rio<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.639977,9.830239,9.4
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrada al mierdero</name>
+        <description><![CDATA[Entrada al mierdero (https://www.wikiloc.com/wikiloc/view.do?id=18502958)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.82936,-84.638821<br>Elevation: 12 meters<br><br> Entrada al mierdero<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.638821,9.82936,12
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pantano las Palmas</name>
+        <description><![CDATA[Pantano las Palmas (https://www.wikiloc.com/wikiloc/view.do?id=18502959)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.827697,-84.639456<br>Elevation: 4 meters<br><br>  <br> Pantano las Palmas<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.639456,9.827697,4.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laguna #2</name>
+        <description><![CDATA[Laguna #2 (https://www.wikiloc.com/wikiloc/view.do?id=18502960)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.82829,-84.637239<br>Elevation: 3 meters<br><br>  <br> Laguna #2<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637239,9.82829,3.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrada a Laguna #2</name>
+        <description><![CDATA[Entrada a Laguna #2 (https://www.wikiloc.com/wikiloc/view.do?id=18502963)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.828311,-84.637226<br>Elevation: 3 meters<br><br> Entrada a Laguna #2<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.637226,9.828311,3.7
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salida Laguna #2</name>
+        <description><![CDATA[Salida Laguna #2 (https://www.wikiloc.com/wikiloc/view.do?id=18502964)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.828162,-84.636934<br>Elevation: 2 meters<br><br>  <br> Salida Laguna #2<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.636934,9.828162,2.3
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasada por Laguna hacia Las Tucas</name>
+        <description><![CDATA[Pasada por Laguna hacia Las Tucas (https://www.wikiloc.com/wikiloc/view.do?id=18502967)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.828582,-84.636316<br>Elevation: 5 meters<br><br> Pasada por Laguna hacia Las Tucas<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.636316,9.828582,5.3
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Posible Salida de Laguna #2</name>
+        <description><![CDATA[Posible Salida de Laguna #2 (https://www.wikiloc.com/wikiloc/view.do?id=18502969)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.828472,-84.635189<br>Elevation: 4 meters<br><br>   <br> Posible Salida de Laguna #2<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.635189,9.828472,4.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salida de Laguna #2</name>
+        <description><![CDATA[Salida de Laguna #2 (https://www.wikiloc.com/wikiloc/view.do?id=18502972)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.828316,-84.634987<br>Elevation: 9 meters<br><br> Salida de Laguna #2<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.634987,9.828316,9
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pasada Las Tucas</name>
+        <description><![CDATA[Pasada Las Tucas (https://www.wikiloc.com/wikiloc/view.do?id=18502975)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.828745,-84.633823<br>Elevation: 10 meters<br><br> Pasada Las Tucas<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.633823,9.828745,10.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuesta Las Tucas</name>
+        <description><![CDATA[Cuesta Las Tucas (https://www.wikiloc.com/wikiloc/view.do?id=18502978)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.829285,-84.633692<br>Elevation: 19 meters<br><br> Cuesta Las Tucas<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.633692,9.829285,19.6
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Río</name>
+        <description><![CDATA[Río (https://www.wikiloc.com/wikiloc/view.do?id=18502982)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.830211,-84.631421<br>Elevation: 12 meters<br><br>  <br> Río<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.631421,9.830211,12.4
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zona de Camping</name>
+        <description><![CDATA[Zona de Camping (https://www.wikiloc.com/wikiloc/view.do?id=18502985)<br> by Carlos Alvarado Solís (https://www.wikiloc.com/wikiloc/user.do?id=916387)<br>  Coordinates (lat,lon): 9.830953,-84.635222<br>Elevation: 44 meters<br><br> Zona de Camping<br> <br>Upload your waypoints to wikiloc.com → (https://www.wikiloc.com/wikiloc/upload.do)]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -84.635222,9.830953,44.9
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

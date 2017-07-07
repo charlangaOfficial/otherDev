@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geo Location</title>
+	<!-- This stylesheet contains specific styles for displaying the map
+         on this page. Replace it with your own styles as described in the
+         documentation:
+         https://developers.google.com/maps/documentation/javascript/tutorial -->
+    <link rel="stylesheet" href="maps.css">
+</head>
+<body>
+  <div>Ruta Camp Cuarros 2017</div>
+	<div id="map"></div>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 9.8337423, lng: -84.6346307},
+          zoom: 16,
+          mapTypeId: 'satellite'
+        });
+
+        var ctaLayer = new google.maps.KmlLayer({
+          //url: 'https://u52347762.dl.dropboxusercontent.com/u/52347762/Finca%20La%20Mariana%204X4%20Completa.kmz',
+          //url: 'https://u52347762.dl.dropboxusercontent.com/u/52347762/Finca%20La%20Mariana%204X4%20Completa.kml',
+          url: 'https://u52347762.dl.dropboxusercontent.com/u/52347762/la-mariana-4x4-completa.gpx',
+          suppressInfoWindows: false,
+          map: map,
+          preserveViewport: true
+        });
+
+        // To center the map to the actual route
+        var bounds = nyLayer.getDefaultViewport();
+        map.fitBounds(bounds);
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0iRJWZwxR1OdV3haj2gRYQWX-QIk8xiE&callback=initMap" async defer></script>
+</body>
+</html>
