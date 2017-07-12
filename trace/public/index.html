@@ -6,39 +6,48 @@
     <title>Trace4WD.com</title>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!-- update the version number as needed -->
+    <script src="/scripts/bootstrap.min.js"></script>
     <script defer src="/__/firebase/4.1.3/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
     <script defer src="/__/firebase/4.1.3/firebase-auth.js"></script>
     <script defer src="/__/firebase/4.1.3/firebase-database.js"></script>
-    <script defer src="/__/firebase/4.1.3/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/4.1.3/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
-    <script src="scripts/currentUser.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      header { color: #000000; font-size: 10px; text-align: right; margin: 20px; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <script src="/scripts/currentUser.js"></script>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
   </head>
-  <body>
-    <header></header>
-    <div id="message">
-      <h2>Bienvenido a Trace</h2>
-      <h1>Hola Mundo!</h1>
-    </div>
+  <body class="home-page">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="#">Trace4WD.com</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li class="login"></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h2>Bienvenido a Trace4WD</h2>
+      <p>Su ruta 4x4 en un solo lugar, disponible para los usuarios que usted desee invitar.</p>
 
+      <h3>Camp Cuarros Completa</h3>
+      <a href="/maps/campCuarros.html" title="Camp Cuarros Completa"><img src="/images/maps/cuarrosComplete.jpg" class="img-responsive" alt="Camp Cuarros Completa" /></a>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted"></p>
+      </div>
+    </footer>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         try {

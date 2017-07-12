@@ -133,7 +133,7 @@ function initApp() {
                 document.getElementById('quickstart-verify-email').disabled = false;
             }
 
-            window.location = '/index.html';
+            //window.location = '/index.html';
 
             // [END_EXCLUDE]
         } else {

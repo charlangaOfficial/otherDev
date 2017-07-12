@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Trace4WD.com / Login</title>
+    <title>Trace4WD.com / Mapas / Camp Cuarros Completa</title>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="/scripts/bootstrap.min.js"></script>
@@ -11,13 +11,11 @@
     <script defer src="/__/firebase/4.1.3/firebase-auth.js"></script>
     <script defer src="/__/firebase/4.1.3/firebase-database.js"></script>
     <script defer src="/__/firebase/init.js"></script>
-    <script src="scripts/moduleLogin.js"></script>
-
     <script src="/scripts/currentUser.js"></script>
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/bootstrap.min.css">
   </head>
-  <body>
+  <body class="home-page">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -39,25 +37,25 @@
       </div>
     </nav>
     <div class="container-fluid">
-      <p>Enter an email and password below and either sign in to an existing account or sign up</p>
-
-      <div class="form-group">
-        <input class="form-control" type="text" id="email" name="email" placeholder="Email"/>
-      </div>
-      <div class="form-group">
-        <input class="form-control" type="password" id="password" name="password" placeholder="Password"/>
-      </div>
-      
-      <button disabled id="quickstart-sign-in" name="signin" type="submit" class="btn btn-default">Sign In</button>
-      <button id="quickstart-sign-up" name="signup" class="btn btn-default">Sign Up</button>
-
-      <button disabled id="quickstart-verify-email" name="verify-email" class="btn btn-default">Send Email Verification</button>
-      <button id="quickstart-password-reset" name="verify-email" class="btn btn-default">Send Password Reset Email</button>
+      <h2>Camp Cuarros Completa</h2>
+      <p>Map will be loaded in here.</p>
     </div>
     <footer class="footer">
       <div class="container">
         <p class="text-muted"></p>
       </div>
     </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        try {
+          let app = firebase.app();
+          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+          console.log(`Firebase SDK loaded with ${features.join(', ')}`);
+        } catch (e) {
+          console.error(e);
+          console.log('Error loading the Firebase SDK, check the console.');
+        }
+      });
+    </script>
   </body>
 </html>
